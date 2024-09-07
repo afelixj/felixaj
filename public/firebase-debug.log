@@ -1,0 +1,41 @@
+[debug] [2024-09-03T11:27:55.329Z] ----------------------------------------------------------------------
+[debug] [2024-09-03T11:27:55.337Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IVSUSERDL0024\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-03T11:27:55.338Z] CLI Version:   10.9.2
+[debug] [2024-09-03T11:27:55.339Z] Platform:      win32
+[debug] [2024-09-03T11:27:55.339Z] Node Version:  v20.11.0
+[debug] [2024-09-03T11:27:55.339Z] Time:          Tue Sep 03 2024 16:57:55 GMT+0530 (India Standard Time)
+[debug] [2024-09-03T11:27:55.340Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-03T11:27:55.347Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-09-03T11:27:55.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-03T11:27:55.469Z] > authorizing via signed-in user (felixaj.ni@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\felix 2\short list\felixaj\public
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2024-09-03T11:27:56.143Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-09-03T11:27:56.144Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-03T11:28:38.417Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:233:13)
+    at process.listener (C:\Users\IVSUSERDL0024\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:518:28)
+[error] 
+[error] Error: An unexpected error has occurred.
