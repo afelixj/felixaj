@@ -1667,7 +1667,7 @@ input[type="file"] {
 	text-decoration: underline;
 }
 
-.single-post-text p:last-child, .blog-content p:last-child {
+.single-post-text p:last-child {
 	margin-bottom: 0;
 }
 
@@ -2341,8 +2341,11 @@ a.next.page-numbers:hover {
 		padding-top: 10px;
 	}
 }
+.blogpost figure {
+	text-align: center;
+}
 @media (min-width: 561px) {
-	.experience .col2 {
+	.experience .col2, .col.education-col2 {
     padding-top: 74px;
 	}
 }
